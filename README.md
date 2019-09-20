@@ -1,4 +1,4 @@
-# add application to ubuntu desktop    
+## add application to ubuntu desktop    
 ### example postman   
 
 ` touch /usr/share/applications/postman.desktop `  
@@ -17,5 +17,9 @@ Type=Application
 Categories=Application;Development;
 StartupNotify=true
 ```
+
+## .gitignore not available   
+
+`git rm --cached .`
 
 
