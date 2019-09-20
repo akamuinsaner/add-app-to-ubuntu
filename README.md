@@ -20,6 +20,6 @@ StartupNotify=true
 
 ## .gitignore not available   
 
-`git rm --cached .`
+`git rm -r --cached .`
 
 
