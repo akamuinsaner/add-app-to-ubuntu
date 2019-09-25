@@ -22,4 +22,13 @@ StartupNotify=true
 
 `git rm -r --cached .`
 
+## Java environment variables setting    
+open .bashrc   
+```
+export JAVA_HOME=/usr/share/java
+export JRE_HOME=${JAVA_HOME}/jre
+export CLASSPATH=.:JAVA_HOME/lib:JRE_HOME/lib:${CLASSPATH}
+export PATH=$JAVA_HOME/bin:$JRE_HOME/bin:$PATH
+```
+
 
