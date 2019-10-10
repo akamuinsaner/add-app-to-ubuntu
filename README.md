@@ -31,4 +31,10 @@ export CLASSPATH=.:JAVA_HOME/lib:JRE_HOME/lib:${CLASSPATH}
 export PATH=$JAVA_HOME/bin:$JRE_HOME/bin:$PATH
 ```
 
+## Android Studio download   
+
+[Android Studio](https://developer.android.google.cn/studio)
+
+
+
 
