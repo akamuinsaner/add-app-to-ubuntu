@@ -1,5 +1,6 @@
 # Build private docker image registry   
 
+由于很多公司内部项目部署不能使用公网docker镜像仓库，所以需要在内网中搭建私有镜像仓库    
 使用docker和openssl搭建私有docker镜像仓库，服务器操作系统：centos 7.6   
 
 1. 安装[docker](https://docs.docker.com/install/linux/docker-ce/centos/)
@@ -43,4 +44,5 @@
       $ sudo update-ca-certificates
       $ sudo systemctl restart docker
     ```
+11. 接下来便可以使用 docker pull ... , docker push ...发布拉取镜像了
 
